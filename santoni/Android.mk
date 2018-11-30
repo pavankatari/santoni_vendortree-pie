@@ -333,7 +333,6 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-<<<<<<< HEAD
 LOCAL_MODULE := PowerOffAlarm
 LOCAL_MODULE_OWNER := xiaomi
 LOCAL_SRC_FILES := proprietary/vendor/app/PowerOffAlarm/PowerOffAlarm.apk
@@ -347,9 +346,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
-=======
 LOCAL_MODULE := colorservice
->>>>>>> c1714d3... santoni: update blobs list
 LOCAL_MODULE_OWNER := xiaomi
 LOCAL_SRC_FILES := proprietary/vendor/app/colorservice/colorservice.apk
 LOCAL_CERTIFICATE := platform
